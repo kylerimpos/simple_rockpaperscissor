@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
+    <script defer src="https://kit.fontawesome.com/9f06d01525.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="button-container">
+                <div class="buttons">
+                    <button class="gameBtn" value="1">
+                        <i class="fa-solid fa-hand-fist fa-4x"></i>
+                    </button>
+                    <button class="gameBtn" value="2">
+                        <i class="fa-solid fa-hand-scissors fa-4x"></i>
+                    </button>
+                    <button class="gameBtn" value="3">
+                        <i class="fa-solid fa-hand fa-4x"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="game-details">
+                <div class="game-status">
+                    <div class="game-hand">
+                        <h2 id="player-hand">-</h2>
+                    </div>
+                    <div class="game-player">
+                        <h3>Player</h3>
+                    </div>
+                    <div class="game-score">
+                        <h2 id="player-score">0</h2>
+
+                    </div>
+                </div>
+                <div>
+                    <h2 id="status">VS</h2>
+                </div>
+                <div class="game-status">
+                    <div class="game-hand">
+                        <h2 id="computer-hand">-</h2>
+                    </div>
+                    <div class="game-player">
+                        <h3>Computer</h3>
+                    </div>d
+                    <div class="game-score">
+                        <h2 id="computer-score">0</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-buttons">
+
+                <button id="restart">
+                    <i class="fa-solid fa-arrow-rotate-right fa-3x"></i>
+                </button>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

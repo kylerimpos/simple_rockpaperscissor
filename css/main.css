@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+body main {
+  width: 100%;
+  height: 100%;
+  padding-top: 5rem;
+}
+body main .basis {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main button {
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+body main button:hover {
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+body main .container {
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 350px;
+  height: 400px;
+  background-color: #e7e7e7;
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.4);
+}
+body main .container .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+}
+body main .container .button-container .buttons {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+body main .container .button-container .buttons button {
+  width: 6rem;
+  height: 100%;
+  background: linear-gradient(to right, rgb(0, 128, 255), rgb(9, 106, 203));
+  border: none;
+  border-radius: 5px;
+}
+body main .container .button-container .buttons button i {
+  color: black;
+}
+body main .container .game-details {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+body main .container .game-details div {
+  width: 100px;
+}
+body main .container .game-buttons {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20px;
+}
+body main .container .game-buttons button {
+  width: 50px;
+  background-color: black;
+  color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */
